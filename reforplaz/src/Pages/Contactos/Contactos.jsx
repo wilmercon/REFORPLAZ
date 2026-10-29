@@ -180,7 +180,7 @@ function Contactos() {
             {/* FORMULARIO DIRECTO */}
             <div className="rounded-3xl border border-sky-200 bg-sky-50/40 p-8 sm:p-10 shadow-lg shadow-sky-100/70">
               <span className="text-sm font-bold uppercase tracking-wider text-sky-600">
-                Cotización Rápida
+                Cotización 
               </span>
               <h2 className="mt-2 text-2xl font-extrabold text-slate-900 sm:text-3xl">
                 Envíanos tus requerimientos
@@ -200,7 +200,7 @@ function Contactos() {
                     required
                     value={formulario.nombre}
                     onChange={handleChange}
-                    placeholder="Ej. Juan Pérez / Constructora XYZ"
+                    placeholder="Ej. Juan Pérez / Constructora"
                     className="mt-1.5 w-full rounded-xl border border-sky-200 bg-white px-4 py-3.5 text-base text-slate-800 placeholder-slate-400 focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500 shadow-xs"
                   />
                 </div>
@@ -276,7 +276,7 @@ function Contactos() {
                   type="submit"
                   className="w-full cursor-pointer rounded-xl bg-gradient-to-r from-sky-500 to-cyan-600 py-4 text-base font-bold text-white shadow-md shadow-sky-500/25 transition hover:scale-[1.02] active:scale-[0.98]"
                 >
-                  Enviar Consulta Directa
+                  Enviar Consulta
                 </button>
 
                 {enviado && (

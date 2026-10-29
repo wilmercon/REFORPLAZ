@@ -84,6 +84,18 @@ function Blog({ cambiarPagina }) {
             La fibra de vidrio es un material fascinante que revoluciona industrias como la náutica, la recreación turística y la arquitectura cívica. Artículos técnicos y consejos prácticos elaborados por nuestros especialistas.
           </p>
 
+          {/* VIDEO DEL BLOG */}
+          <div className="mx-auto mt-8 max-w-3xl overflow-hidden rounded-3xl border border-sky-200/90 bg-white p-2 shadow-lg shadow-sky-100/80">
+            <video
+              controls
+              preload="metadata"
+              className="w-full rounded-2xl bg-slate-900 max-h-[440px] object-contain"
+            >
+              <source src="/imagenes/video_blog.mp4" type="video/mp4" />
+              <source src="https://reforplaz.com/img/video_blog.mp4" type="video/mp4" />
+              Tu navegador no soporta videos HTML5.
+            </video>
+          </div>
           {/* FILTROS DE CATEGORÍA DEL BLOG */}
           <div className="mt-8 flex flex-wrap justify-center gap-2.5">
             {categorias.map((cat) => (
